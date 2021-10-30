@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3IG6q6P9/0m0AB9L2wOr9gAAAAACAAAAAAAQZgAAAAEAACAAAADxbyJD62gUAADe7ckwgtPsZt6Ov0got8bcnZV3RoV1QQAAAAAOgAAAAAIAACAAAAAxLReHxQoxefdSZ/aAjXmhVzPV88xTVaiLAYdqmh4Bq4AAAADcPkWO/FXQO8tUYi+gc9GJFjlau97O6tH9ccP158GWfY152s6bRb2F76gjUiITMg/co7c//ygA0LoZFPsf34KXTAdmXp9gsa3DG7A75Vwk+8Z/4nrZSV51C0m+eE4cFxSuiMrmfi0eGeRJY/x+RTscTt5Y208QfBI0F0kgVN/51EAAAADaG/ppv31AJXDsx/UOd4K/fZPAP2TrLYcpiyeUvwls26sAsZOcvB/w5rbspFPzWuCFJ9FQDnU+FB4Jpwit/7a5</EncryptedPassword>
+    <History>True|2021-04-27T13:45:03.5799287Z;True|2021-04-27T10:38:38.7230543-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DevCompanyRatingCs">
+      <Value>Server=tcp:devcompanyrating.database.windows.net,1433%3bInitial Catalog=devcompanyrating-db%3bPersist Security Info=False%3bUser ID=devcompanyrating%3bPassword=Luisdev10%2a%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="ServiceBusCs">
+      <Value>Server=tcp:devcompanyrating.database.windows.net,1433%3bInitial Catalog=devcompanyrating-db%3bPersist Security Info=False%3bUser ID=devcompanyrating%3bPassword=Luisdev10%2a%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
